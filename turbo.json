@@ -16,6 +16,13 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "benchmark": {
+      "outputs": []
+    },
+    "get-started": {
+      "dependsOn": ["^build"],
+      "outputs": []
     }
   }
 }

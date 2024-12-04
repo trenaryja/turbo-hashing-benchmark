@@ -1,0 +1,11 @@
+{
+  "name": "rust-xxhash",
+  "version": "1.0.0",
+  "description": "A Rust implementation of the xxHash algorithm",
+  "main": "index.js",
+  "scripts": {
+    "get-started": "sh get-started.sh",
+    "build": "rustc src/main.rs"
+  },
+  "license": "MIT"
+}

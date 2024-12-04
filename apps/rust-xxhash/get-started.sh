@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Show loader for three seconds
 echo -n "Setting up rust-xxhash"
 for i in {1..3}; do

@@ -38,4 +38,7 @@ yarn-error.log*
 #  keep above in sync with other ignore-files
 ################################################################################
 
-.obsidian
+# lock files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json

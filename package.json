@@ -1,20 +1,20 @@
 {
   "name": "turbo-hashing-benchmark",
   "private": true,
+  "packageManager": "pnpm@9.14.4",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "get-started": "sh scripts/get-started.sh"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md,mdx,yml,yaml,html,vue,graphql}\"",
+    "completions": "sh ./packages/scripts/completions.sh -i",
+    "deno": "deno ./packages/scripts/deno/deno.ts",
+    "get-latest": "pnpm up --interactive -recursive --latest",
+    "get-started": "sh get-started.sh"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.4.2",
     "turbo": "^2.3.3",
-    "typescript": "5.5.4"
-  },
-  "packageManager": "pnpm@9.0.0",
-  "engines": {
-    "node": ">=18"
+    "typescript": "5.7.2"
   }
 }
